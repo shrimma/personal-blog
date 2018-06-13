@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://sa1weu1jsblogbeta.blob.core.windows.net/testblog/2018/06/welcome-to-the-blog/</loc>
+    <lastmod>2018-06-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sa1weu1jsblogbeta.blob.core.windows.net/testblog/tags/about/</loc>
+    <lastmod>2018-06-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://sa1weu1jsblogbeta.blob.core.windows.net/testblog/archives/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://sa1weu1jsblogbeta.blob.core.windows.net/testblog/tags/blog/</loc>
+    <lastmod>2018-06-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://sa1weu1jsblogbeta.blob.core.windows.net/testblog/categories/blog/</loc>
+    <lastmod>2018-06-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://sa1weu1jsblogbeta.blob.core.windows.net/testblog/categories/</loc>
+    <lastmod>2018-06-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://sa1weu1jsblogbeta.blob.core.windows.net/testblog/tags/introduction/</loc>
+    <lastmod>2018-06-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://sa1weu1jsblogbeta.blob.core.windows.net/testblog/</loc>
+    <lastmod>2018-06-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://sa1weu1jsblogbeta.blob.core.windows.net/testblog/tags/meta/</loc>
+    <lastmod>2018-06-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://sa1weu1jsblogbeta.blob.core.windows.net/testblog/categories/meta/</loc>
+    <lastmod>2018-06-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://sa1weu1jsblogbeta.blob.core.windows.net/testblog/post/</loc>
+    <lastmod>2018-06-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://sa1weu1jsblogbeta.blob.core.windows.net/testblog/tags/</loc>
+    <lastmod>2018-06-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
