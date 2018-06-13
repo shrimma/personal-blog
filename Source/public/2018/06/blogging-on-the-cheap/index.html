@@ -1,0 +1,752 @@
+
+
+  
+    
+  
+
+
+  
+
+
+
+
+  
+
+
+  
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="generator" content="Hugo 0.41 with theme Tranquilpeak 0.4.3-BETA">
+    <title>Blogging on the Cheap</title>
+    <meta name="author" content="James Sarjeant">
+    <meta name="keywords" content="azure, development, next-gen, cloud, devops, azure, net, microsoft, dotnet">
+
+    <link rel="icon" href="https://sa1weu1jsblogbeta.blob.core.windows.net/testblog/favicon.png">
+    
+
+    
+    <meta name="description" content="First up, let&rsquo;s look at how this blog was created and hosted for less than the price of a single coffee.
+">
+    <meta property="og:description" content="First up, let&rsquo;s look at how this blog was created and hosted for less than the price of a single coffee.
+">
+    <meta property="og:type" content="blog">
+    <meta property="og:title" content="Blogging on the Cheap">
+    <meta property="og:url" content="/2018/06/blogging-on-the-cheap/">
+    <meta property="og:site_name" content="JS Blog">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="JS Blog">
+    <meta name="twitter:description" content="First up, let&rsquo;s look at how this blog was created and hosted for less than the price of a single coffee.
+">
+    
+      <meta name="twitter:creator" content="@sarjee">
+    
+    
+
+    
+    
+
+    
+      <meta property="og:image" content="//www.gravatar.com/avatar/f8b45ed7151c2a4ff6526e2c19872739?s=640">
+    
+
+    
+      <meta property="og:image" content="//d1u9biwaxjngwg.cloudfront.net/welcome-to-tranquilpeak/city-750.jpg">
+    
+    
+    
+
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/jquery.fancybox.min.css" integrity="sha256-vuXZ9LGmmwtjqFX1F+EKin1ThZMub58gKULUyf0qECk=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/helpers/jquery.fancybox-thumbs.min.css" integrity="sha256-SEa4XYAHihTcEP1f5gARTB2K26Uk8PsndQYHQC1f4jU=" crossorigin="anonymous" />
+    
+    
+    <link rel="stylesheet" href="https://sa1weu1jsblogbeta.blob.core.windows.net/testblog/css/style-jsjn0006wyhpyzivf6yceb31gvpjatbcs3qzjvlumobfnugccvobqwxnnaj8.min.css" />
+    
+    
+
+    
+      
+    
+    
+  </head>
+
+  <body>
+    <div id="blog">
+      <header id="header" data-behavior="1">
+  <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
+  <div class="header-title">
+    <a class="header-title-link" href="https://sa1weu1jsblogbeta.blob.core.windows.net/testblog/">JS Blog</a>
+  </div>
+  
+    
+      <a class="header-right-picture "
+         href="https://sa1weu1jsblogbeta.blob.core.windows.net/testblog/#about">
+    
+    
+    
+      
+        <img class="header-picture" src="//www.gravatar.com/avatar/f8b45ed7151c2a4ff6526e2c19872739?s=90" alt="Author&#39;s picture" />
+      
+    
+    </a>
+  
+</header>
+
+      <nav id="sidebar" data-behavior="1">
+  <div class="sidebar-container">
+    
+      <div class="sidebar-profile">
+        <a href="https://sa1weu1jsblogbeta.blob.core.windows.net/testblog/#about">
+          <img class="sidebar-profile-picture" src="//www.gravatar.com/avatar/f8b45ed7151c2a4ff6526e2c19872739?s=110" alt="Author&#39;s picture" />
+        </a>
+        <h4 class="sidebar-profile-name">James Sarjeant</h4>
+        
+          <h5 class="sidebar-profile-bio">Developer, football supporter, and outdoor enthusiast</h5>
+        
+      </div>
+    
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://sa1weu1jsblogbeta.blob.core.windows.net/testblog/">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-home"></i>
+      
+      <span class="sidebar-button-desc">Home</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://sa1weu1jsblogbeta.blob.core.windows.net/testblog/categories">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-bookmark"></i>
+      
+      <span class="sidebar-button-desc">Categories</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://sa1weu1jsblogbeta.blob.core.windows.net/testblog/tags">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-tags"></i>
+      
+      <span class="sidebar-button-desc">Tags</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://sa1weu1jsblogbeta.blob.core.windows.net/testblog/archives">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-archive"></i>
+      
+      <span class="sidebar-button-desc">Archives</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://sa1weu1jsblogbeta.blob.core.windows.net/testblog/#about">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-question"></i>
+      
+      <span class="sidebar-button-desc">About</span>
+    </a>
+  </li>
+
+
+    </ul>
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://github.com/shrimma" target="_blank" rel="noopener">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-github"></i>
+      
+      <span class="sidebar-button-desc">GitHub</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://twitter.com/sarjee" target="_blank" rel="noopener">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-twitter"></i>
+      
+      <span class="sidebar-button-desc">Twitter</span>
+    </a>
+  </li>
+
+
+    </ul>
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://sa1weu1jsblogbeta.blob.core.windows.net/testblog/index.xml">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-rss"></i>
+      
+      <span class="sidebar-button-desc">RSS</span>
+    </a>
+  </li>
+
+
+    </ul>
+  </div>
+</nav>
+
+      
+
+      <div id="main" data-behavior="1"
+        class="
+               hasCoverMetaIn
+               ">
+        <article class="post" itemscope itemType="http://schema.org/BlogPosting">
+          
+          
+            <div class="post-header main-content-wrap text-center">
+  
+    <h1 class="post-title" itemprop="headline">
+      Blogging on the Cheap
+    </h1>
+  
+  
+  <div class="postShorten-meta post-meta">
+    
+      <time itemprop="datePublished" datetime="2018-06-12T00:00:00Z">
+        
+  
+  
+  
+  
+    12 June 2018
+  
+
+      </time>
+    
+    
+  
+  
+    <span>in</span>
+    
+      <a class="category-link" href="https://sa1weu1jsblogbeta.blob.core.windows.net/testblog/categories/blog">blog</a>, 
+    
+      <a class="category-link" href="https://sa1weu1jsblogbeta.blob.core.windows.net/testblog/categories/azure">azure</a>
+    
+  
+
+  </div>
+
+</div>
+          
+          <div class="post-content markdown" itemprop="articleBody">
+            <div class="main-content-wrap">
+              <p>First up, let&rsquo;s look at how this blog was created and hosted for less than the price of a single coffee.
+</p>
+
+<p>For hosting my blog I decided against using one of the traditional blog platforms such as Wordpress. Primarily as to run Wordpress (or similar) you need a web server, and a database, and etc, etc - all of this starts to add up in terms of cost and as I&rsquo;m not expecting to get millions of views why should I be paying a significant amount of money to keep my little blog up and running.</p>
+
+<p>Instead I opted to take the hipster approach and go for a static content provider, there are a number of options out there but I settled upon Hugo. My plan was to host the static content site in Azure Blob Storage and spend just pennies a month!</p>
+
+<p>Below you&rsquo;ll find everything you need to know to get started with Hugo. Along with how to upload and host your static website in Blob storage. We even take it a step further and spin up Azure CDN to ensure speed and reliability for end users, no one waits for a &lsquo;slow&rsquo; site in this day and age!</p>
+
+<p><strong>Note you can do all of this with free Azure credits - trust me this isn&rsquo;t going to make a dent in your Azure wallet, as I said from the top we are talking PENNIES! (or cents if that&rsquo;s how your currency works)</strong></p>
+
+<h1 id="table-of-contents">Table of Contents</h1><nav id="TableOfContents">
+<ul>
+<li><a href="#prerequisites">Prerequisites</a></li>
+<li><a href="#hugo">Hugo</a></li>
+<li><a href="#blob-storage">Blob Storage</a></li>
+<li><a href="#cdn">CDN</a></li>
+<li><a href="#https-domain-certificate">HTTPS, Domain, Certificate</a></li>
+<li><a href="#finishing-up">Finishing Up</a></li>
+<li><a href="#next-time">Next Time</a></li>
+</ul>
+</nav>
+
+<h1 id="prerequisites">Prerequisites</h1>
+
+<ul>
+<li>Hugo - if you can then add hugo.exe to your environment PATH - it will help you out in the long run.</li>
+<li>Azure CLI v2 - we&rsquo;ll use this to upload our site to blob storage.</li>
+</ul>
+
+<h1 id="hugo">Hugo</h1>
+
+<p>Firstly you&rsquo;ll need to download the latest version of hugo, if you haven&rsquo;t already. Did you skip the prerequisites section? Shame on you!</p>
+
+<p>Let&rsquo;s use hugo to create our site, fire up command prompt and follow along with these commands:</p>
+
+<pre><code>hugo new site myblog
+</code></pre>
+
+<p>We want our new blog to be shiney and preferablly responsive on different size screens/devices so we need to pick a theme which takes care of all this hard work for us. Personally I settled on <a href="https://github.com/kakawait/hugo-tranquilpeak-theme">tranquilpeak</a> for my blog but it requires a bit more configuration out of the box so for the purposes of keeping this post simple let&rsquo;s use <a href="https://github.com/budparr/gohugo-theme-ananke">ananke</a>. It&rsquo;s important to note that there are a wide variety of themes available, so pick one that works for you.</p>
+
+<p>You&rsquo;ll need to clone the selected themes repo into the themes subfolder of your new site.</p>
+
+<pre><code>cd myblog/themes
+git clone https://github.com/budparr/gohugo-theme-ananke.git
+</code></pre>
+
+<p>Once we&rsquo;ve cloned the theme we need to update our config to use it. Head back to the root directory of mysite and edit config.toml in your text editor of choice. Add a &lsquo;theme&rsquo; parameter with the value set to whichever theme you just cloned.</p>
+
+<pre><code>theme = &quot;gohugo-theme-ananke&quot;
+</code></pre>
+
+<p>Our new blog is going to need some content so let&rsquo;s create our first post. <em>You should run this command from your sites root directory so run the &lsquo;cd ..&rsquo; as required.</em></p>
+
+<pre><code>cd ..
+hugo new post/my-first-post.md
+</code></pre>
+
+<p>Once you&rsquo;ve created your dummy post then fire up your markdown editor of choice, I&rsquo;m using haroopad, and add a nice warming welcome message to any potential visitors.</p>
+
+<pre><code>Hello World!
+</code></pre>
+
+<p>Let&rsquo;s take an early look at our handiwork. Helpfully hugo includes a lightweight server to make this really simple.</p>
+
+<pre><code>hugo server
+</code></pre>
+
+<p>Leaving the command window open, fire up a browser and navigate to <a href="http://localhost:1313">localhost:1313</a>.
+<img src="https://sa1weu1jsblogbeta.blob.core.windows.net/testblog/img/firstlook.png" alt="First look" />
+Tada, you&rsquo;ve created your first static website! Take a moment to pat yourself on the back and then we&rsquo;ll plough on and get our site hosted and served from Azure.</p>
+
+<p><em>If you like you can spend some time now to customize the theme and thus your blog to your hearts desire, just refer to your selected themes documentation for guidance around this. Hell start adding content if you want. It really is up to you.</em></p>
+
+<h1 id="blob-storage">Blob Storage</h1>
+
+<p>Now we come to our hosting mechanism, in this case we are avoiding the tradional IIS/webserver and relying on plain blob storage. Blob storage fits with hugo perfectly in my mind and you&rsquo;ll see why shortly.</p>
+
+<p>Create a new Storage account in Azure, you can use the portal if you like but we&rsquo;ll perform the same with Azure CLI.</p>
+
+<p>Firstly we need to login. Type the following and follow the prompts.</p>
+
+<pre><code>az login
+</code></pre>
+
+<p>Then create a resource group and storage account</p>
+
+<pre><code>az
+</code></pre>
+
+<p>Whilst our storage is deploying let&rsquo;s take a second to cover one very important thing. You may have noticed when you opened up config.toml earlier a &lsquo;baseurl&rsquo; setting with the value &lsquo;example.org&rsquo; - this becomes very important when hosting your hugo site as it is the glue for all the css, javascript, hyperlinks, etc of your site. If you want to be able to view your site, without it looking very rough around the edges, you&rsquo;ll want to set this value to your blob containers URL (at least for now), which you can find in the Azure portal under properties:</p>
+
+<p>Edit config.toml and set the baseURL to your containers URL.</p>
+
+<pre><code>baseURL = &quot;https://sa1weu1jsblogbeta.blob.core.windows.net/testblog/&quot;
+</code></pre>
+
+<p>Let&rsquo;s build our hugo site. Simply enter hugo into your command line without any other parameters/arguments.</p>
+
+<pre><code>hugo
+</code></pre>
+
+<p>To upload our site to blob storage we&rsquo;ll again use Azure CLI v2. We&rsquo;ve come so far with this why not stick with the command prompt vibe in this post.</p>
+
+<pre><code>az upload-batch
+</code></pre>
+
+<p>And simple as that our blog is now available to the world wide web! Don&rsquo;t believe me? Check out your index.html properties from the Azure portal, go ahead and copy the URL into another tab.</p>
+
+<p>You can stop here if you like, after all our blog site is &ldquo;live&rdquo;, but we can do better than this! First off we don&rsquo;t want people to have to remember to include index.html an the end of every URL (seriously what kind of masochist expects that of users) and secondly those blob URLs are very forgettable.</p>
+
+<h1 id="cdn">CDN</h1>
+
+<p>Using Azure CDN we can create rules that will mean our users don&rsquo;t see any unexpected 404 errors when they reach [www.ourblog.com]() rather than [www.ourblog.com/<strong>index.html</strong>](). Also we get improved response time globally. Win win!</p>
+
+<h1 id="https-domain-certificate">HTTPS, Domain, Certificate</h1>
+
+<p>Now the cherry on top, you can use Azure CDN in combination with any custom domain that you happen to own to say good bye to the forgetable and untypable blob storage URLs and hello to the simple and easy to remember [mysuperduperawesomeblog.com]().</p>
+
+<h1 id="finishing-up">Finishing Up</h1>
+
+<p>With all posts I will endeavor to include any source code on Github. This post is actually an exception to that rule (rules are made to be broken right?) as rather than uploading a skeleton blog which wouldn&rsquo;t give you any value you can instead find my live blog code. Head on over to the repo and check it out if you like, you may even get a sneak peak at what&rsquo;s coming next&hellip;</p>
+
+<h1 id="next-time">Next Time</h1>
+
+<p>Let&rsquo;s get our DevOps hats on! We want deployments to be reliable and repeatable so we&rsquo;ll look at using ARM templates to create our azure resources. Plus we&rsquo;ll look at how we can harness the power of VSTS build/release pipelines to create a continuous integration and continuous deployment pipeline that will do all the leg work for us.</p>
+
+<p>As always leave any comments below the line :)</p>
+              
+            </div>
+          </div>
+          <div id="post-footer" class="post-footer main-content-wrap">
+            
+              
+                
+                
+                  <div class="post-footer-tags">
+                    <span class="text-color-light text-small">TAGGED IN</span><br/>
+                    
+  <a class="tag tag--primary tag--small" href="https://sa1weu1jsblogbeta.blob.core.windows.net/testblog/tags/blog/">blog</a>
+
+  <a class="tag tag--primary tag--small" href="https://sa1weu1jsblogbeta.blob.core.windows.net/testblog/tags/azure/">azure</a>
+
+  <a class="tag tag--primary tag--small" href="https://sa1weu1jsblogbeta.blob.core.windows.net/testblog/tags/blobstorage/">blobstorage</a>
+
+  <a class="tag tag--primary tag--small" href="https://sa1weu1jsblogbeta.blob.core.windows.net/testblog/tags/hugo/">hugo</a>
+
+  <a class="tag tag--primary tag--small" href="https://sa1weu1jsblogbeta.blob.core.windows.net/testblog/tags/budget/">budget</a>
+
+                  </div>
+                
+              
+            
+            
+  <div class="post-actions-wrap">
+      <nav >
+        <ul class="post-actions post-action-nav">
+          
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--disabled">
+              
+                  <i class="fa fa-angle-left"></i>
+                  <span class="hide-xs hide-sm text-small icon-ml">NEXT</span>
+                </a>
+            </li>
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--default tooltip--top" href="https://sa1weu1jsblogbeta.blob.core.windows.net/testblog/2018/06/welcome-to-the-blog/" data-tooltip="Welcome to the Blog">
+              
+                  <span class="hide-xs hide-sm text-small icon-mr">PREVIOUS</span>
+                  <i class="fa fa-angle-right"></i>
+                </a>
+            </li>
+          
+        </ul>
+      </nav>
+    <ul class="post-actions post-action-share" >
+      
+        <li class="post-action hide-lg hide-md hide-sm">
+          <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions">
+            <i class="fa fa-share-alt"></i>
+          </a>
+        </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://sa1weu1jsblogbeta.blob.core.windows.net/testblog/2018/06/blogging-on-the-cheap/">
+              <i class="fa fa-facebook-official"></i>
+            </a>
+          </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https://sa1weu1jsblogbeta.blob.core.windows.net/testblog/2018/06/blogging-on-the-cheap/">
+              <i class="fa fa-twitter"></i>
+            </a>
+          </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=https://sa1weu1jsblogbeta.blob.core.windows.net/testblog/2018/06/blogging-on-the-cheap/">
+              <i class="fa fa-google-plus"></i>
+            </a>
+          </li>
+        
+      
+      
+        <li class="post-action">
+          <a class="post-action-btn btn btn--default" href="#disqus_thread">
+            <i class="fa fa-comment-o"></i>
+          </a>
+        </li>
+      
+      <li class="post-action">
+        
+          <a class="post-action-btn btn btn--default" href="#table-of-contents">
+        
+          <i class="fa fa-list"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+
+            
+              
+                <div id="disqus_thread">
+  <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+              
+            
+          </div>
+        </article>
+        <footer id="footer" class="main-content-wrap">
+  <span class="copyrights">
+    &copy; 2018 James Sarjeant. All Rights Reserved
+  </span>
+</footer>
+
+      </div>
+      <div id="bottom-bar" class="post-bottom-bar" data-behavior="1">
+        
+  <div class="post-actions-wrap">
+      <nav >
+        <ul class="post-actions post-action-nav">
+          
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--disabled">
+              
+                  <i class="fa fa-angle-left"></i>
+                  <span class="hide-xs hide-sm text-small icon-ml">NEXT</span>
+                </a>
+            </li>
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--default tooltip--top" href="https://sa1weu1jsblogbeta.blob.core.windows.net/testblog/2018/06/welcome-to-the-blog/" data-tooltip="Welcome to the Blog">
+              
+                  <span class="hide-xs hide-sm text-small icon-mr">PREVIOUS</span>
+                  <i class="fa fa-angle-right"></i>
+                </a>
+            </li>
+          
+        </ul>
+      </nav>
+    <ul class="post-actions post-action-share" >
+      
+        <li class="post-action hide-lg hide-md hide-sm">
+          <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions">
+            <i class="fa fa-share-alt"></i>
+          </a>
+        </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://sa1weu1jsblogbeta.blob.core.windows.net/testblog/2018/06/blogging-on-the-cheap/">
+              <i class="fa fa-facebook-official"></i>
+            </a>
+          </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https://sa1weu1jsblogbeta.blob.core.windows.net/testblog/2018/06/blogging-on-the-cheap/">
+              <i class="fa fa-twitter"></i>
+            </a>
+          </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=https://sa1weu1jsblogbeta.blob.core.windows.net/testblog/2018/06/blogging-on-the-cheap/">
+              <i class="fa fa-google-plus"></i>
+            </a>
+          </li>
+        
+      
+      
+        <li class="post-action">
+          <a class="post-action-btn btn btn--default" href="#disqus_thread">
+            <i class="fa fa-comment-o"></i>
+          </a>
+        </li>
+      
+      <li class="post-action">
+        
+          <a class="post-action-btn btn btn--default" href="#table-of-contents">
+        
+          <i class="fa fa-list"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+
+      </div>
+      <div id="share-options-bar" class="share-options-bar" data-behavior="1">
+  <i id="btn-close-shareoptions" class="fa fa-close"></i>
+  <ul class="share-options">
+    
+      <li class="share-option">
+        <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fsa1weu1jsblogbeta.blob.core.windows.net%2Ftestblog%2F2018%2F06%2Fblogging-on-the-cheap%2F">
+          <i class="fa fa-facebook-official"></i><span>Share on Facebook</span>
+        </a>
+      </li>
+    
+      <li class="share-option">
+        <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=https%3A%2F%2Fsa1weu1jsblogbeta.blob.core.windows.net%2Ftestblog%2F2018%2F06%2Fblogging-on-the-cheap%2F">
+          <i class="fa fa-twitter"></i><span>Share on Twitter</span>
+        </a>
+      </li>
+    
+      <li class="share-option">
+        <a class="share-option-btn" target="new" href="https://plus.google.com/share?url=https%3A%2F%2Fsa1weu1jsblogbeta.blob.core.windows.net%2Ftestblog%2F2018%2F06%2Fblogging-on-the-cheap%2F">
+          <i class="fa fa-google-plus"></i><span>Share on Google&#43;</span>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+<div id="share-options-mask" class="share-options-mask"></div>
+    </div>
+    
+    <div id="about">
+  <div id="about-card">
+    <div id="about-btn-close">
+      <i class="fa fa-remove"></i>
+    </div>
+    
+      <img id="about-card-picture" src="//www.gravatar.com/avatar/f8b45ed7151c2a4ff6526e2c19872739?s=110" alt="Author&#39;s picture" />
+    
+    <h4 id="about-card-name">James Sarjeant</h4>
+    
+      <div id="about-card-bio">Developer, football supporter, and outdoor enthusiast</div>
+    
+    
+      <div id="about-card-job">
+        <i class="fa fa-briefcase"></i>
+        <br/>
+        Dev Team Lead
+      </div>
+    
+    
+      <div id="about-card-location">
+        <i class="fa fa-map-marker"></i>
+        <br/>
+        Ipswich, UK
+      </div>
+    
+  </div>
+</div>
+
+    <div id="algolia-search-modal" class="modal-container">
+  <div class="modal">
+    <div class="modal-header">
+      <span class="close-button"><i class="fa fa-close"></i></span>
+      <a href="https://algolia.com" target="_blank" rel="noopener" class="searchby-algolia text-color-light link-unstyled">
+        <span class="searchby-algolia-text text-color-light text-small">by</span>
+        <img class="searchby-algolia-logo" src="https://www.algolia.com/static_assets/images/press/downloads/algolia-light.svg">
+      </a>
+      <i class="search-icon fa fa-search"></i>
+      <form id="algolia-search-form">
+        <input type="text" id="algolia-search-input" name="search"
+          class="form-control input--large search-input" placeholder="Search" />
+      </form>
+    </div>
+    <div class="modal-body">
+      <div class="no-result text-color-light text-center">no post found</div>
+      <div class="results">
+        
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="https://sa1weu1jsblogbeta.blob.core.windows.net/testblog/2018/06/blogging-on-the-cheap/">
+                <h3 class="media-heading">Blogging on the Cheap</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Jun 6, 2018
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><p>First up, let&rsquo;s look at how this blog was created and hosted for less than the price of a single coffee.
+</p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="https://sa1weu1jsblogbeta.blob.core.windows.net/testblog/2018/06/welcome-to-the-blog/">
+                <h3 class="media-heading">Welcome to the Blog</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Jun 6, 2018
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><p>Welcome to the blog, where I&rsquo;ll be covering everything Azure, DevOps, dotnet, and VSTS.
+</p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+      </div>
+    </div>
+    <div class="modal-footer">
+      <p class="results-count text-medium"
+         data-message-zero="no post found"
+         data-message-one="1 post found"
+         data-message-other="{n} posts found">
+         2 posts found
+      </p>
+    </div>
+  </div>
+</div>
+    
+  
+    
+    <div id="cover" style="background-image:url('https://sa1weu1jsblogbeta.blob.core.windows.net/testblog/images/cover.jpg');"></div>
+  
+
+
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.7/js/jquery.fancybox.min.js" integrity="sha256-GEAnjcTqVP+vBp3SSc8bEDQqvWAZMiHyUSIorrWwH50=" crossorigin="anonymous"></script>
+
+
+<script src="https://sa1weu1jsblogbeta.blob.core.windows.net/testblog/js/script-qi9wbxp2ya2j6p7wx1i6tgavftewndznf4v0hy2gvivk1rxgc3lm7njqb6bz.min.js"></script>
+
+
+
+<script>
+$(document).ready(function() {
+  hljs.configure({ classPrefix: '', useBR: false });
+  $('pre.code-highlight > code, pre > code').each(function(i, block) {
+    if (!$(this).hasClass('codeblock')) {
+      $(this).addClass('codeblock');
+    }
+    hljs.highlightBlock(block);
+  });
+});
+</script>
+
+
+  
+    
+      <script>
+        var disqus_config = function () {
+          this.page.url = 'https:\/\/sa1weu1jsblogbeta.blob.core.windows.net\/testblog\/2018\/06\/blogging-on-the-cheap\/';
+          
+            this.page.identifier = 'db8f37f54a5f4200824feea54c4faf2e';
+          
+        };
+        (function() {
+          
+          
+          if (window.location.hostname == "localhost") {
+            return;
+          }
+          var d = document, s = d.createElement('script');
+          var disqus_shortname = 'jsblog';
+          s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+
+          s.setAttribute('data-timestamp', +new Date());
+          (d.head || d.body).appendChild(s);
+        })();
+      </script>
+    
+  
+
+
+
+    
+  </body>
+</html>
+

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on JS Blog</title>
+    <link>https://sa1weu1jsblogbeta.blob.core.windows.net/testblog/tags/</link>
+    <description>Recent content in Tags on JS Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 10 Jun 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://sa1weu1jsblogbeta.blob.core.windows.net/testblog/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>https://sa1weu1jsblogbeta.blob.core.windows.net/testblog/tags/about/</link>
+      <pubDate>Sun, 10 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://sa1weu1jsblogbeta.blob.core.windows.net/testblog/tags/about/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Blog</title>
+      <link>https://sa1weu1jsblogbeta.blob.core.windows.net/testblog/tags/blog/</link>
+      <pubDate>Sun, 10 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://sa1weu1jsblogbeta.blob.core.windows.net/testblog/tags/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Introduction</title>
+      <link>https://sa1weu1jsblogbeta.blob.core.windows.net/testblog/tags/introduction/</link>
+      <pubDate>Sun, 10 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://sa1weu1jsblogbeta.blob.core.windows.net/testblog/tags/introduction/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Meta</title>
+      <link>https://sa1weu1jsblogbeta.blob.core.windows.net/testblog/tags/meta/</link>
+      <pubDate>Sun, 10 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://sa1weu1jsblogbeta.blob.core.windows.net/testblog/tags/meta/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
