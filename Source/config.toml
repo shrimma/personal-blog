@@ -15,7 +15,7 @@
 baseURL = "https://sa1weu1jsblogbeta.blob.core.windows.net/testblog/"
 languageCode = "en-us"
 defaultContentLanguage = "en-us"
-title = "JS Blog"
+title = "Tech Blog by James Sarjeant"
 theme = "hugo-tranquilpeak-theme"
 disqusShortname = "jsblog"
 # googleAnalytics = "UA-123-45"
@@ -32,14 +32,11 @@ canonifyurls = true
 
 [author]
   name = "James Sarjeant"
-  bio = "Developer, football supporter, and outdoor enthusiast"
+  bio = "Developer, football fan, and outdoor enthusiast"
   job = "Dev Team Lead"
   location = "Ipswich, UK"
   # Your Gravatar email. Overwrite `author.picture` everywhere in the blog
-  gravatarEmail = "jpsarjeant@gmail.com"
-  # Your profile picture
-  # Overwritten by your gravatar image if `author.gravatarEmail` is filled
-  picture = "https://cdn1.iconfinder.com/data/icons/ninja-things-1/1772/ninja-simple-512.png"
+  gravatarEmail = "jpsarjeant@gmail.com"   
   # Your Twitter username without the @. E.g : thibaudlepretre
   twitter = "sarjee"
   # Your google plus profile id. E.g : +ThibaudLepretre or 114625208755123718311
