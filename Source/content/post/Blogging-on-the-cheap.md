@@ -1,6 +1,6 @@
 ---
 title: "Blogging on the Cheap"
-date: 2018-06-15
+date: 2018-06-25
 categories:
 - blog
 - azure
