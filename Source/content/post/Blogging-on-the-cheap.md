@@ -133,6 +133,7 @@ Using Azure CDN we can create rules that will mean our users don't see any unexp
 
 
 
+
 # HTTPS, Domain, Certificate
 Now the cherry on top, you can use Azure CDN in combination with any custom domain that you happen to own to say good bye to the forgetable and untypable blob storage URLs and hello to the simple and easy to remember [mysuperduperawesomeblog.com]().
 
