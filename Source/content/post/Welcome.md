@@ -14,7 +14,7 @@ keywords:
 autoThumbnailImage: false
 thumbnailImagePosition: "left"
 thumbnailImage: img/landguardviewingpoint.jpg
-coverImage: /testblog/img/landguardviewingpoint.jpg
+coverImage: img/landguardviewingpoint.jpg
 coverCaption: Landguard Viewing Point by Steve Arnold
 metaAlignment: center
 disqusIdentifier: 981861f4d2a2464c919ca2244903a10c

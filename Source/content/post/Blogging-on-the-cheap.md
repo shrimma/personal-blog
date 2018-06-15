@@ -1,6 +1,6 @@
 ---
 title: "Blogging on the Cheap"
-date: 2018-06-15
+date: 2018-06-25
 categories:
 - blog
 - azure
@@ -130,6 +130,7 @@ You can stop here if you like, after all our blog site is "live", but we can do 
 
 # CDN
 Using Azure CDN we can create rules that will mean our users don't see any unexpected 404 errors when they reach [www.ourblog.com]() rather than [www.ourblog.com/**index.html**](). Also we get improved response time globally. Win win!
+
 
 
 
